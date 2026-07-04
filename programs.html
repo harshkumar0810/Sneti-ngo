@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SNETI (Social Network for Empowering Talent and Innovation) programs — education, environment, youth empowerment, animal welfare, and health initiatives.">
+  <title>Our Programs — SNETI</title>
+  <link rel="icon" href="assets/logo4.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <div class="scroll-progress" id="scroll-progress"></div>
+
+    <header class="header">
+    <div class="container nav">
+     <a href="index.html" class="logo">
+  <img src="assets/logo2.png" alt="SNETI NGO" class="logo-img">
+  <div class="logo-text">
+    SNETI NGO
+    <small>Social Network for Empowering Talents and Innovation</small>
+  </div>
+</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="programs.html" class="active">Programs</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="donate.html">Donate</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-cta">
+        <a href="donate.html" class="btn btn-gold">Donate Now</a>
+      </div>
+      <button class="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb fade-up">
+        <a href="index.html">Home</a>
+        <span>/</span>
+        <span style="color:var(--gold);">Programs</span>
+      </div>
+      <h1 class="fade-up delay-1">Our Programs</h1>
+      <p class="fade-up delay-2">Empowering talent, nurturing nature, and creating opportunities — explore SNETI's groundwork initiatives.</p>
+    </div>
+  </section>
+
+  <section class="programs" style="background:var(--bg-primary);">
+    <div class="container">
+      <div class="programs-grid">
+        
+        <!-- Program 1 -->
+        <div class="program-card fade-up" data-program="shiksha-jyoti">
+          <div class="program-image">
+            <img src="assets/gallery-art.png" alt="Shiksha Jyoti Education program">
+          </div>
+          <div class="program-body">
+            <h3>Shiksha Jyoti</h3>
+            <p>Bridging the gap for underprivileged children by breaking socioeconomic barriers and maximizing school enrollment to build a brighter future.</p>
+            <span class="program-tag">Education</span>
+          </div>
+        </div>
+
+        <!-- Program 2 -->
+        <div class="program-card fade-up delay-1" data-program="pragati-pathshala">
+          <div class="program-image">
+            <img src="assets/program3.png" alt="Pragati Pathshala Mini Schools">
+          </div>
+          <div class="program-body">
+            <h3>Pragati Pathshala</h3>
+            <p>Setting up safe, nurturing mini-schools in slums to ensure every child has access to quality learning, play, and essential social interaction.</p>
+            <span class="program-tag">Child Development</span>
+          </div>
+        </div>
+
+        <!-- Program 3 -->
+        <div class="program-card fade-up delay-2" data-program="nayi-pehchaan">
+          <div class="program-image">
+            <img src="assets/program2.png" alt="Nayi Pehchaan Skill Development">
+          </div>
+          <div class="program-body">
+            <h3>Nayi Pehchaan</h3>
+            <p>Empowering youth and women with skills, training, and entrepreneurial guidance to open doors to independent, sustainable livelihoods.</p>
+            <span class="program-tag">Empowerment</span>
+          </div>
+        </div>
+
+        <!-- Program 4 -->
+        <div class="program-card fade-up delay-3" data-program="annavastra-daan">
+          <div class="program-image">
+            <img src="assets/hero-community.png" alt="Annavastra Daan relief">
+          </div>
+          <div class="program-body">
+            <h3>Annavastra Daan</h3>
+            <p>Combating hunger and promoting dignity by providing nutritious food, clothing, and essential support to vulnerable families and children.</p>
+            <span class="program-tag">Relief</span>
+          </div>
+        </div>
+
+        <!-- Program 5 -->
+        <div class="program-card fade-up" data-program="seva-matri">
+          <div class="program-image">
+            <img src="assets/gallery-art.png" alt="Seva Matri Environmental drive">
+          </div>
+          <div class="program-body">
+            <h3>Seva Matri</h3>
+            <p>Caring for Mother Earth through Ganga clean-up drives, plantations, greenathons, and collaborative community environmental action.</p>
+            <span class="program-tag">Environment</span>
+          </div>
+        </div>
+
+        <!-- Program 6 -->
+        <div class="program-card fade-up delay-1" data-program="paw-angels">
+          <div class="program-image">
+            <img src="assets/program1.png" alt="Paw Angels street animal care">
+          </div>
+          <div class="program-body">
+            <h3>Paw Angels</h3>
+            <p>Dedicated to the welfare of street animals with food, rescue support, basic medical assistance, and vaccination & sterilization awareness.</p>
+            <span class="program-tag">Animal Welfare</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Special Highlight Section for Walkathon -->
+ <section id="chalo-walk" class="cta-banner" style="margin: 4rem 0;">
+  <div class="container fade-up">
+    
+    <span class="section-tag" style="color: var(--gold); border: 1px solid var(--gold); padding: 4px 16px; border-radius: 20px; background: rgba(255, 69, 0, 0.1);">
+      Featured Health Initiative
+    </span>
+    
+    <h2>चलो Walk per ™</h2>
+    
+    <p>
+      A heart-health and fitness awareness initiative led by <strong>Dr. Madhav Kumar</strong>, Cardiothoracic Surgeon at IGIMS, Patna. We promote the power of daily walking to prevent heart disease. Small steps lead to big health changes — join us to adopt an active lifestyle for a healthier heart and a longer life!
+    </p>
+    
+    <a href="contact.html" class="btn btn-gold">Join the Next Walk</a>
+    
+  </div>
+</section>
+
+  <section>
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-tag">How It Works</span>
+        <h2 class="section-title">Our Approach</h2>
+      </div>
+      <div class="mission-grid">
+        <div class="mission-card fade-up">
+          <div class="mission-icon"><i class="fa-solid fa-1"></i></div>
+          <h3>Identify Needs</h3>
+          <p>We work directly with communities in Patna and surrounding regions to understand local educational, environmental, and social challenges.</p>
+        </div>
+        <div class="mission-card fade-up delay-1">
+          <div class="mission-icon"><i class="fa-solid fa-2"></i></div>
+          <h3>Act Collaboratively</h3>
+          <p>Our youth volunteers and professional partners mobilize quickly for medical camps, clean-ups, and education drives.</p>
+        </div>
+        <div class="mission-card fade-up delay-2">
+          <div class="mission-icon"><i class="fa-solid fa-3"></i></div>
+          <h3>Empower & Sustain</h3>
+          <p>We focus on long-term empowerment — whether it's giving women skills for economic independence or planting trees for future generations.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="background:var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-tag">Volunteer</span>
+        <h2 class="section-title">Join SNETI as a Volunteer</h2>
+        <p class="section-desc">Give your time and skills — teach children, feed strays, or help at our health and environment drives. Every effort counts.</p>
+      </div>
+      <div style="max-width:600px;margin:0 auto;" class="fade-up">
+        <form id="volunteer-form" class="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="v-name">Full Name</label>
+              <input type="text" id="v-name" required placeholder="Your name">
+            </div>
+            <div class="form-group">
+              <label for="v-phone">Phone</label>
+              <input type="tel" id="v-phone" required placeholder="+91 XXXXX XXXXX">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="v-interest">Area of Interest</label>
+            <select id="v-interest" required>
+              <option value="">Select a program</option>
+              <option value="shiksha">Shiksha Jyoti (Education)</option>
+              <option value="pragati">Pragati Pathshala (Slum Mini-Schools)</option>
+              <option value="pehchaan">Nayi Pehchaan (Women/Youth Skilling)</option>
+              <option value="annavastra">Annavastra Daan (Food & Clothing)</option>
+              <option value="sevamatri">Seva Matri (Environment/Ganga Clean-up)</option>
+              <option value="pawangels">Paw Angels (Street Animal Care)</option>
+              <option value="chalowalk">चलो Walk per ™ (Health & Fitness)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="v-message">Why do you want to volunteer?</label>
+            <textarea id="v-message" placeholder="Tell us about your skills and motivation..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">Apply to Volunteer</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="fund-program-cta" style="background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); padding: 5rem 0; text-align: center; margin-top: 2rem;">
+    <div class="container fade-up" style="display: flex; flex-direction: column; align-items: center;">
+      <h2 style="font-family: var(--font-display); color: #ffffff; font-size: 2.5rem; margin-bottom: 1rem;">Fund a Program</h2>
+      <p style="color: #cbd5e1; max-width: 650px; margin-bottom: 2rem; font-size: 1.1rem; line-height: 1.6;">
+        Sponsor a food drive, education kit distribution, or tree plantation — see your impact firsthand.
+      </p>
+      <a href="donate.html" class="btn btn-gold" style="padding: 0.8rem 2.5rem; font-size: 1.1rem; font-weight: 600;">Donate Now</a>
+    </div>
+  </section>
+
+ 
+
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">↑</button>
+
+  <div class="modal-overlay" id="program-modal">
+    <div class="modal">
+      <div class="modal-icon"></div>
+      <h3 class="modal-title"></h3>
+      <p class="modal-desc"></p>
+      <ul class="modal-impact"></ul>
+      <button class="btn btn-primary" onclick="closeModal('program-modal')">Close</button>
+    </div>
+  </div>
+
+    <!-- Simplified Footer for Demo -->
+ <footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      
+      <!-- Column 1: Brand & Social -->
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <img src="assets/logo2.png" alt="SNETI NGO" class="logo-img">
+          <div class="logo-text">
+            SNETI NGO
+            <small>Social Network for Empowering Talents and Innovation</small>
+          </div>
+        </a>
+        <p>Fostering meaningful social change through education, skill development, and community initiatives.</p>
+        <div class="social-links">
+          <a href="https://www.instagram.com/sneti.ngo/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.facebook.com/sneti.ngo/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.linkedin.com/company/sneti-ngo/?originalSubdomain=in" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                  </div>
+      </div>
+      
+      <!-- Column 2: Quick Links -->
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="programs.html">Our Programs</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="donate.html">Donate</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      
+      <!-- Column 3: Programs -->
+      <div class="footer-col">
+        <h4>Programs</h4>
+        <ul>
+          <li><a href="programs.html">Shiksha Jyoti</a></li>
+          <li><a href="programs.html">Pragati Pathshala</a></li>
+          <li><a href="programs.html">Nayi Pehchaan</a></li>
+          <li><a href="programs.html">Annavastra Daan</a></li>
+          <li><a href="programs.html">Seva Matri</a></li>
+          <li><a href="programs.html">Paw Angels</a></li>
+          <li><a href="programs.html#chalo-walk">चलो Walk per ™</a></li>
+        </ul>
+      </div>
+      
+      <!-- Column 4: Policies
+      <div class="footer-col">
+        <h4>Policies</h4>
+        <ul>
+          <li><a href="terms.html">Terms and Conditions</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="cancellation.html">Cancellation and Refund</a></li>
+        </ul>
+      </div> -->
+      
+      <!-- Column 5: Contact -->
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li>
+            <i class="fa-solid fa-location-dot"></i> 
+            <a href="https://www.google.com/maps/dir//SNETI+Foundation+(NGO),+Sevdaha+Bahorichak,+Patna+Gaya+Road,+near+Fun+n+City+Resort,
+                      +Bihar+804451/@25.6170256,85.116814,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x39f2bb0065a896d1:0xb18e7c36d9ae4c17!2m2!1d85.
+                      1568611!2d25.3932439?entry=ttu&g_ep=EgoyMDI2MDYyNC4wIKXMDSoASAFQAw%3D%3D"target="_blank" rel="noopener">
+                      Sevdaha Bahorichak, Patna Gaya Road, near Fun n City Resort, Bihar 804451</a>
+          </li>
+          <li>
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:+917520837101">+91 7520837101</a>
+          </li>
+          <li>
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:info@sneti.ngo">info@sneti.ngo</a>
+          </li>
+        </ul>
+      </div>
+      
+    </div>
+    
+    <div class="footer-bottom">
+      <span>© 2026 SNETI NGO. All rights reserved.</span>
+      <span>Designed and Developed by Harsh Kumar</span>
+    </div>
+  </div>
+</footer>
+ <a href="https://wa.me/917520837101?text=Hi%20Sneti%20Foundation%2C%20I%20want%20to%20help!" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">↑</button>
+
+
+  <script src="js/main.js"></script>
+</body>
+</html>
